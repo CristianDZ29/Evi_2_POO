@@ -10,5 +10,28 @@ public class Persona{
         this.genero = genero;
         this.edad = edad;
     }
+    public String getNombre() {
+        return nombre;
+    }
+
+
+    public String getApellido() {
+        return apellido;
+    }
+
+
+    public String getGenero() {
+        return genero;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+
+    @Override
+    public String toString() {
+        return "Persona: " + nombre + " " + apellido + ", Género: " + genero + ", Edad: " + edad;
+    }
 
 }
